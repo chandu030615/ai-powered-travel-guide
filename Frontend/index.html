@@ -278,10 +278,15 @@
 
         <div id="experience" class="hidden w-full max-w-[440px] shrink-0">
           <div class="flex justify-start mb-6">
-            <button id="closeExperience"
-              class="px-5 py-2.5 bg-white border border-gray-200 rounded-full text-sm font-medium text-gray-600 hover:text-[#ff8a1f] hover:border-[#ff8a1f]/30 hover:shadow-sm transition-all flex items-center gap-2 group">
-              <span class="group-hover:-translate-x-0.5 transition-transform">←</span> Back to Places
-            </button>
+            <button
+  id="closeExperience"
+  type="button"
+  aria-label="Back to Places"
+  class="relative z-20 inline-flex items-center gap-2 px-5 py-3 bg-white border border-gray-300 rounded-full text-sm font-semibold text-gray-700 shadow-md hover:text-[#ff8a1f] hover:border-[#ff8a1f] hover:shadow-lg transition-all cursor-pointer"
+>
+  <span aria-hidden="true">←</span>
+  <span>Back to Places</span>
+</button>
           </div>
 
           <div class="p-8 bg-white border border-gray-100 rounded-[2rem] shadow-2xl shadow-gray-200/50">
